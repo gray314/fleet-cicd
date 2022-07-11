@@ -7,4 +7,4 @@ targetCustomizations:
       matchLabels:
         provider.cattle.io: eks
     kustomize:
-      dir: ./update/eks
+      dir: update/eks
