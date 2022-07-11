@@ -7,4 +7,4 @@ targetCustomizations:
       matchLabels:
         provider.cattle.io: eks2
     kustomize:
-      dir: update/eks
+      dir: overlays/eks
