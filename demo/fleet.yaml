@@ -1,0 +1,8 @@
+
+namespace: echo-ns
+
+targetCustomizations:
+  - name: eks
+    clusterSelector:
+      matchLabels:
+        provider.cattle.io: eks
