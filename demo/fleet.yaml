@@ -6,3 +6,5 @@ targetCustomizations:
     clusterSelector:
       matchLabels:
         provider.cattle.io: eks
+    kustomize:
+      dir: update/eks
