@@ -2,8 +2,7 @@
 namespace: echo-ns
 
 kustomize:
-  # Use a custom folder for kustomize resources. This folder must contain
-  # a kustomization.yaml file.
+  # Use a custom folder for kustomize resources. This folder must contain a kustomization.yaml file.
   dir: ./update
 
 targetCustomizations:
